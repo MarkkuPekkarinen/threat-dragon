@@ -18,8 +18,8 @@ import ja from './ja';
 import ms from './ms';
 import pt from './pt';
 import ptBr from './pt-br';
-// hide RUS & UKR for now: import rus from './ru';
-// hide RUS & UKR for now: import ukr from './uk';
+import ru from './ru';
+// hide Ukranian for now: import uk from './uk';
 import zh from './zh';
 
 
@@ -45,6 +45,7 @@ const messages = Object.freeze({
     ms,
     pt,
     'pt-BR': ptBr,
+    ru,
     zh
 });
 
